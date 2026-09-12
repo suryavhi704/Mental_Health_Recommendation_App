@@ -1,0 +1,13 @@
+Mental Health Prediction/
+│
+├── app.py                          ← main Streamlit app
+├── utils.py                        ← model loading & helper functions
+├── groq_client.py                  ← Groq API wrapper (AI Coach)
+├── requirements.txt                ← dependencies
+├── README.md                       ← setup guide
+│
+├── Mental_Health_Model.pkl         
+│
+└── .streamlit/
+    ├── config.toml                 ← theme (already provided)
+    └── secrets.toml                ← your key
